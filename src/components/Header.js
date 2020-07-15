@@ -34,8 +34,8 @@ export default class Header extends Component {
                     <li><a href="/Contacts">Контакты</a></li>
                 </ul>
             </div>
-            <Router>
-                <Switch>
+            <Router> 
+                <Switch basename="/github-pages-portfolio-matviiuk-ihor">
                     <Route exact path="/" component={Home}/>
                     <Route exact path="/AboutMe" component={AboutMe}/>
                     <Route exact path="/Contacts" component={Contacts}/>
