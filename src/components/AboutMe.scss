@@ -1,0 +1,165 @@
+.cards__section{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px 100px 0px;
+}
+.card{
+    width: 300px;
+    height: 550px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    
+    .card__blue{
+        background-color: #3c40c6;
+        width: 300px;
+        height: 100px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        color: white;
+      }
+    .card__red{
+        background-color: #ff3f34;
+        width: 300px;
+        height: 100px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        color: white;
+      }
+    .card__green{
+        background-color: #05c46b;
+        width: 300px;
+        height: 100px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        color: white;
+      }
+    .card__yellow{
+        background-color: #ffa801;
+        width: 300px;
+        height: 100px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        color: white;
+      }
+    .card__pink{
+        background-color: #f53b57;
+        width: 300px;
+        height: 100px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        color: white;
+      }
+    .card__header__text{
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        
+        padding-top: 35px;
+    }
+
+    .skills{
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        text-align: center;
+        .tReact{
+            color: #61DAFB;
+            margin-top: -5px;
+        }
+        .tVue{
+            color: #3FB984;
+            margin-top: -5px;
+        }
+        .tElectron{
+            color: #74B1BE;
+            margin-top: -5px;
+        }
+        .frame{
+            font-weight: 900;
+        }
+    }
+
+    .otherSkills{
+        font-size: 18px;
+        letter-spacing: 1px;
+        font-weight: 600;   
+        text-align: center;
+        .adobexd{
+            padding-right: 60px;
+        }
+        .adobe{
+            font-family:  sans-serif;
+        }
+    }
+    .experience{
+        font-size: 20px;
+        text-align: center;
+        letter-spacing: 1px;
+        font-weight: 500;  
+    }
+    .softSkills{
+        text-align: center;
+        .com{
+            font-size: 25px;
+            font-weight: 600;  
+        }
+        .comL{
+            font-weight: 500;
+            margin-top: -12px;
+        }
+    }
+    .education{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .beetrootAcademy{
+        font-size: 25px;
+        font-weight: 600; 
+        display: flex;
+        img{
+            padding-right: 10px;
+        }
+        .beetroot{
+            padding-top: 15px;
+            margin-bottom: 0px;
+        }
+        .academy{
+            font-size: 35px;
+            margin-top: 0px;
+        }
+        .end{
+            font-size: 15px;
+            font-weight: 600;
+            margin-top: -25px;
+        }
+    }
+    .education__text{
+        display: flex;
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width:1700px){
+      .cards__section{
+        flex-wrap: wrap;
+        .card{
+            margin-top: 50px;
+        }
+      }
+  }
+  @media (max-width:558px){
+    .cards__section{
+      flex-wrap: wrap;
+      margin-top: -100px;
+      .card{
+          margin-top: 50px;
+      }
+    }
+}
