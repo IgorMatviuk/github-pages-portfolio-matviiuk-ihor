@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/github-pages-portfolio-matviiuk-ihor/static/css/main.fc28d669.chunk.css",
-    "main.js": "/github-pages-portfolio-matviiuk-ihor/static/js/main.136ccd2c.chunk.js",
-    "main.js.map": "/github-pages-portfolio-matviiuk-ihor/static/js/main.136ccd2c.chunk.js.map",
+    "main.js": "/github-pages-portfolio-matviiuk-ihor/static/js/main.ee70fe15.chunk.js",
+    "main.js.map": "/github-pages-portfolio-matviiuk-ihor/static/js/main.ee70fe15.chunk.js.map",
     "runtime-main.js": "/github-pages-portfolio-matviiuk-ihor/static/js/runtime-main.5740c4b2.js",
     "runtime-main.js.map": "/github-pages-portfolio-matviiuk-ihor/static/js/runtime-main.5740c4b2.js.map",
     "static/js/2.87875411.chunk.js": "/github-pages-portfolio-matviiuk-ihor/static/js/2.87875411.chunk.js",
     "static/js/2.87875411.chunk.js.map": "/github-pages-portfolio-matviiuk-ihor/static/js/2.87875411.chunk.js.map",
     "index.html": "/github-pages-portfolio-matviiuk-ihor/index.html",
-    "precache-manifest.9601d54dd2628576e405b9c47a48b353.js": "/github-pages-portfolio-matviiuk-ihor/precache-manifest.9601d54dd2628576e405b9c47a48b353.js",
+    "precache-manifest.204112cd817a182136bd4184e8197a65.js": "/github-pages-portfolio-matviiuk-ihor/precache-manifest.204112cd817a182136bd4184e8197a65.js",
     "service-worker.js": "/github-pages-portfolio-matviiuk-ihor/service-worker.js",
     "static/css/main.fc28d669.chunk.css.map": "/github-pages-portfolio-matviiuk-ihor/static/css/main.fc28d669.chunk.css.map",
     "static/js/2.87875411.chunk.js.LICENSE.txt": "/github-pages-portfolio-matviiuk-ihor/static/js/2.87875411.chunk.js.LICENSE.txt",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.5740c4b2.js",
     "static/js/2.87875411.chunk.js",
     "static/css/main.fc28d669.chunk.css",
-    "static/js/main.136ccd2c.chunk.js"
+    "static/js/main.ee70fe15.chunk.js"
   ]
 }
