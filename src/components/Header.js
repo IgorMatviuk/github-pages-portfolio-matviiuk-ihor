@@ -35,11 +35,11 @@ export default class Header extends Component {
                 </ul>
             </div>
             <HashRouter basename="/github-pages-portfolio-matviiuk-ihor"> 
-                    <Route basename="/github-pages-portfolio-matviiuk-ihor" exact path="/" component={Home}/>
-                    <Route basename="/github-pages-portfolio-matviiuk-ihor" exact path="/AboutMe" component={AboutMe}/>
-                    <Route basename="/github-pages-portfolio-matviiuk-ihor" exact path="/Contacts" component={Contacts}/>
-                    <Route basename="/github-pages-portfolio-matviiuk-ihor" exact path="/Home" component={Home}/>
-                    <Route basename="/github-pages-portfolio-matviiuk-ihor" exact path="/Work" component={Work}/>
+                    <Route exact path="/" component={Home}/>
+                    <Route exact path="/AboutMe" component={AboutMe}/>
+                    <Route exact path="/Contacts" component={Contacts}/>
+                    <Route exact path="/Home" component={Home}/>
+                    <Route exact path="/Work" component={Work}/>
                     <Route component={Error}/>
             </HashRouter>
         </div>
