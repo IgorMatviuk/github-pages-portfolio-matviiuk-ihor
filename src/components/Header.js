@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Header.scss';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import {BrowserRouter, Switch, Route, NavLink} from 'react-router-dom';
 
 
 import AboutMe from './AboutMe';
@@ -26,15 +26,16 @@ export default class Header extends Component {
             <div className="header">
                 <div className="header__logo" style={{ fontFamily:'Roboto'}}>Игорь Матвиюк</div>
             </div>
+            <BrowserRouter>
             <div className="menu">
                 <ul>
-                    <li><a href="/Home">Главная</a></li>
-                    <li><a href="/AboutMe">Обо мне</a></li>
-                    <li><a href="/Work">Работы</a></li>
-                    <li><a href="/Contacts">Контакты</a></li>
+                    <NavLink to="/Home">Главная</NavLink>
+                    <NavLink to="/AboutMe">Обо мне</NavLink>
+                    <NavLink to="/Work">Работы</NavLink>
+                    <NavLink to="/Contacts">Контакты</NavLink>
                 </ul>
             </div>
-            <BrowserRouter>
+            
                 <Switch> 
                     <Route exact path="/"
                      render={() => <Home/>}/>
