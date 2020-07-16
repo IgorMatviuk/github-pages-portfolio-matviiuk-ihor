@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "53d6ecd70ab4bd1d90bc92b187ed4c1f",
+    "revision": "e282cf10909bb9d599e67a1c5f5cd321",
     "url": "/github-pages-portfolio-matviiuk-ihor/index.html"
   },
   {
-    "revision": "e440ba8efdaf73934894",
+    "revision": "6613a073f3cd9e044c97",
     "url": "/github-pages-portfolio-matviiuk-ihor/static/css/main.fc28d669.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/github-pages-portfolio-matviiuk-ihor/static/js/2.bc9217a7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e440ba8efdaf73934894",
-    "url": "/github-pages-portfolio-matviiuk-ihor/static/js/main.c4b37800.chunk.js"
+    "revision": "6613a073f3cd9e044c97",
+    "url": "/github-pages-portfolio-matviiuk-ihor/static/js/main.7a0ca97a.chunk.js"
   },
   {
     "revision": "8df091d7a509acb24924",
