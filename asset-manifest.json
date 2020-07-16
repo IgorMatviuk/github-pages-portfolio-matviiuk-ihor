@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/github-pages-portfolio-matviiuk-ihor/static/css/main.fc28d669.chunk.css",
-    "main.js": "/github-pages-portfolio-matviiuk-ihor/static/js/main.dcebe51a.chunk.js",
-    "main.js.map": "/github-pages-portfolio-matviiuk-ihor/static/js/main.dcebe51a.chunk.js.map",
+    "main.js": "/github-pages-portfolio-matviiuk-ihor/static/js/main.2ada82ab.chunk.js",
+    "main.js.map": "/github-pages-portfolio-matviiuk-ihor/static/js/main.2ada82ab.chunk.js.map",
     "runtime-main.js": "/github-pages-portfolio-matviiuk-ihor/static/js/runtime-main.5740c4b2.js",
     "runtime-main.js.map": "/github-pages-portfolio-matviiuk-ihor/static/js/runtime-main.5740c4b2.js.map",
-    "static/js/2.711cfb87.chunk.js": "/github-pages-portfolio-matviiuk-ihor/static/js/2.711cfb87.chunk.js",
-    "static/js/2.711cfb87.chunk.js.map": "/github-pages-portfolio-matviiuk-ihor/static/js/2.711cfb87.chunk.js.map",
+    "static/js/2.33f69e8a.chunk.js": "/github-pages-portfolio-matviiuk-ihor/static/js/2.33f69e8a.chunk.js",
+    "static/js/2.33f69e8a.chunk.js.map": "/github-pages-portfolio-matviiuk-ihor/static/js/2.33f69e8a.chunk.js.map",
     "index.html": "/github-pages-portfolio-matviiuk-ihor/index.html",
-    "precache-manifest.cdc268ace0f072c75177976da19d9140.js": "/github-pages-portfolio-matviiuk-ihor/precache-manifest.cdc268ace0f072c75177976da19d9140.js",
+    "precache-manifest.b3480c22ec52dc60aaefabe8bcf10bc9.js": "/github-pages-portfolio-matviiuk-ihor/precache-manifest.b3480c22ec52dc60aaefabe8bcf10bc9.js",
     "service-worker.js": "/github-pages-portfolio-matviiuk-ihor/service-worker.js",
     "static/css/main.fc28d669.chunk.css.map": "/github-pages-portfolio-matviiuk-ihor/static/css/main.fc28d669.chunk.css.map",
-    "static/js/2.711cfb87.chunk.js.LICENSE.txt": "/github-pages-portfolio-matviiuk-ihor/static/js/2.711cfb87.chunk.js.LICENSE.txt",
+    "static/js/2.33f69e8a.chunk.js.LICENSE.txt": "/github-pages-portfolio-matviiuk-ihor/static/js/2.33f69e8a.chunk.js.LICENSE.txt",
     "static/media/AdobeI.svg": "/github-pages-portfolio-matviiuk-ihor/static/media/AdobeI.d29d36c5.svg",
     "static/media/AdobeP.svg": "/github-pages-portfolio-matviiuk-ihor/static/media/AdobeP.8ca8f89d.svg",
     "static/media/AdobeX.svg": "/github-pages-portfolio-matviiuk-ihor/static/media/AdobeX.207a6b48.svg",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5740c4b2.js",
-    "static/js/2.711cfb87.chunk.js",
+    "static/js/2.33f69e8a.chunk.js",
     "static/css/main.fc28d669.chunk.css",
-    "static/js/main.dcebe51a.chunk.js"
+    "static/js/main.2ada82ab.chunk.js"
   ]
 }
