@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Header.scss';
 import {BrowserRouter, Switch, Route, NavLink} from 'react-router-dom';
-import { createHistory } from 'history'
 
 
 import AboutMe from './AboutMe';
@@ -27,7 +26,7 @@ export default class Header extends Component {
             <div className="header">
                 <div className="header__logo" style={{ fontFamily:'Roboto'}}>Игорь Матвиюк</div>
             </div>
-            <BrowserRouter history={history}>
+            <BrowserRouter>
             <div className="menu">
                 <ul>
                     <NavLink to="/Home">Главная</NavLink>
