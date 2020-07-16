@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Header.scss';
-import {HashRouter, Route} from 'react-router-dom';
+import {HashRouter, Link} from 'react-router-dom';
 
 
 import AboutMe from './AboutMe';
@@ -35,12 +35,12 @@ export default class Header extends Component {
                 </ul>
             </div>
             <HashRouter basename="/github-pages-portfolio-matviiuk-ihor"> 
-                    <Route exact path="/" component={Home}/>
-                    <Route exact path="/AboutMe" component={AboutMe}/>
-                    <Route exact path="/Contacts" component={Contacts}/>
-                    <Route exact path="/Home" component={Home}/>
-                    <Route exact path="/Work" component={Work}/>
-                    <Route component={Error}/>
+                    <Link exact path="/" component={Home}/>
+                    <Link exact path="/AboutMe" component={AboutMe}/>
+                    <Link exact path="/Contacts" component={Contacts}/>
+                    <Link exact path="/Home" component={Home}/>
+                    <Link exact path="/Work" component={Work}/>
+                    <Link component={Error}/>
             </HashRouter>
         </div>
         )
