@@ -22,7 +22,7 @@ export default class work extends Component {
                     <div className="cardw0text">
                         <div className="cardw0textheader"></div>
                         <div className="cardw0__text" style={{ fontFamily:'Roboto'}}>
-                        Приложение для просмотра погоды по городам всего мира, поиск воспринимает большенство мировых языков, в приложении используется Weatherbit API для отображения данных о погоде
+                        Приложение для просмотра погоды по городам всего мира, поиск воспринимает большинство мировых языков, в приложении используется Weatherbit API для отображения данных о погоде
                         </div>
                         <div>
                             <form className="form" action="https://igormatviuk.github.io/github-pages-react-weather/">
