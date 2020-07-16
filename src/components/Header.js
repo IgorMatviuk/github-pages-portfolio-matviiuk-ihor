@@ -37,7 +37,7 @@ export default class Header extends Component {
             </div>
             
                 <Switch> 
-                    <Route exact path="/"
+                    <Route path="/"
                      render={() => <Home/>}/>
                     <Route path="/AboutMe"
                      render={() => <AboutMe/>}/>

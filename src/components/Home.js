@@ -40,7 +40,7 @@ export default class Home extends Component {
                                         Обучение на курсах
                                     </div>
                                     <div className="s1text" style={{ fontFamily:'Roboto'}}>
-                                        Между 2019-2020 годами проходил обучение на front-end разаработчика в Beetroot academy, там я изучил верстку HTML/CSS, базовые понятия JavaScript, и библиотеки VUE
+                                        Между 2019-2020 годами проходил обучение на front-end разработчика в Beetroot academy, там я изучил верстку HTML/CSS, базовые понятия JavaScript, и библиотеки VUE
                                     </div>
                                 </div>
                             </div>
