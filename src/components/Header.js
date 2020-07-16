@@ -11,12 +11,12 @@ import Work from './Work';
 
 import GoogleFontLoader from 'react-google-font-loader';
 
-const BASEURL = process.env.PUBLIC_URL.length > 0
-? new URL(process.env.PUBLIC_URL).pathname
-: '';
-
 export default class Header extends Component {
     render() {
+        const BASEURL = process.env.PUBLIC_URL.length > 0
+        ? new URL(process.env.PUBLIC_URL).pathname
+        : '';
+
         return (
         <div>
     <GoogleFontLoader
