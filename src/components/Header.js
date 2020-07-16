@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Header.scss';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter, Switch, Route} from 'react-router-dom';
 
 
 import AboutMe from './AboutMe';
@@ -34,7 +34,7 @@ export default class Header extends Component {
                     <li><a href="/Contacts">Контакты</a></li>
                 </ul>
             </div>
-            <Router basename="/github-pages-portfolio-matviiuk-ihor">
+            <HashRouter basename="/github-pages-portfolio-matviiuk-ihor">
                 <Switch> 
                     <Route exact path="/" component={Home}/>
                     <Route exact path="/AboutMe" component={AboutMe}/>
@@ -43,7 +43,7 @@ export default class Header extends Component {
                     <Route exact path="/Work" component={Work}/>
                     <Route component={Error}/>
                 </Switch>
-            </Router>
+            </HashRouter>
         </div>
         )
     }
