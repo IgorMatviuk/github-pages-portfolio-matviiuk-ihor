@@ -13,10 +13,6 @@ import GoogleFontLoader from 'react-google-font-loader';
 
 export default class Header extends Component {
     render() {
-        const BASEURL = process.env.PUBLIC_URL.length > 0
-        ? new URL(process.env.PUBLIC_URL).pathname
-        : '';
-
         return (
         <div>
     <GoogleFontLoader
@@ -38,7 +34,7 @@ export default class Header extends Component {
                     <li><a href="/Contacts">Контакты</a></li>
                 </ul>
             </div>
-            <Router basename={BASEURL}>
+            <Router basename="/github-pages-portfolio-matviiuk-ihor">
                 <Switch> 
                     <Route exact path="/" component={Home}/>
                     <Route exact path="/AboutMe" component={AboutMe}/>
