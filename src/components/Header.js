@@ -11,6 +11,10 @@ import Work from './Work';
 
 import GoogleFontLoader from 'react-google-font-loader';
 
+const BASEURL = process.env.PUBLIC_URL.length > 0
+? new URL(process.env.PUBLIC_URL).pathname
+: '';
+
 export default class Header extends Component {
     render() {
         return (
@@ -34,7 +38,7 @@ export default class Header extends Component {
                     <li><a href="/Contacts">Контакты</a></li>
                 </ul>
             </div>
-            <Router  basename={process.env.PUBLIC_URL}>
+            <Router basename={BASEURL}>
                 <Switch> 
                     <Route exact path="/" component={Home}/>
                     <Route exact path="/AboutMe" component={AboutMe}/>
