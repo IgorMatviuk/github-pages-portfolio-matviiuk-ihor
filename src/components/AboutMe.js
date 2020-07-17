@@ -62,7 +62,7 @@ export default class AboutMe extends Component {
                             <div>
                                 <p className="com">Коммуникабельность</p>
                                 <div className="comL">
-                                <p>Нейтральное отношение к религиям, социальным классам, рассам</p>
+                                <p>Нейтральное отношение к религиям, социальным классам, расам</p>
                                 <p>Имеется опыт коммуникации полученный при работе в общепите</p>
                                 <p>Быстрая адаптация в новом кругу общения </p> 
                                 </div>
@@ -86,8 +86,8 @@ export default class AboutMe extends Component {
                             <p style={{ fontFamily:'Roboto'}}>Опыт</p>
                         </div>
                         <div className="experience" style={{ fontFamily:'Roboto'}}>
-                            <p>freelance: сайты на wordpress</p>
-                            <p>open source (маленькие веб-приложения на github)</p>
+                            <div><p>freelance: сайты на wordpress</p></div>
+                            <div><p>open source (маленькие веб-приложения на github)</p></div>
                         </div>
                     </div>
                 </div>
