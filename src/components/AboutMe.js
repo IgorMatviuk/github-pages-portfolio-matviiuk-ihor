@@ -52,6 +52,7 @@ export default class AboutMe extends Component {
                             </div>
                             <div><p>Bash (linux)</p></div>
                             <div><p>.NET Framework(C#)(знаком)</p></div>
+                            <div><p>Python (Django)(знаком)</p></div>
                         </div>
                     </div>
                     <div className="card">
