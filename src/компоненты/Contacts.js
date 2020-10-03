@@ -30,7 +30,6 @@ export default class Contacts extends Component {
                         <div>
                             <div className="contact">
                                 <div><img src={gmail} alt="vue" width="40px"  /> Почта: igor11.11.9988@gmail.com</div>
-                                <div className="phone"><img src={phone} alt="vue" width="40px" /> Телефон: 380661755061</div> 
                             </div>
                             <div className="mysoc">
                                 <p>Мои соц-сети</p>
